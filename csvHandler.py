@@ -20,5 +20,3 @@ def numerate_csv():
     with fileinput.FileInput("wb_data.csv", inplace=True) as file:
         for n, row in enumerate(file, start=0):
             print(f"{n},", row, end='')
-
-numerate_csv()
