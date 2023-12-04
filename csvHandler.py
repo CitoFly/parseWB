@@ -21,6 +21,7 @@ def __save_csv(chars: list):
 def numerate_csv():
     with fileinput.FileInput("wb_data.csv", inplace=True) as file:
         for n, row in enumerate(file, start=0):
+<<<<<<< HEAD
             if n != 0:
                 print(f"{n},", row, end='')
             else:
@@ -64,3 +65,6 @@ def show_graph(item_id):
 
     plt.plot(x, y)
     plt.show()
+=======
+            print(f"{n},", row, end='')
+>>>>>>> efec936bffe54f9eae96b44fdd51be5731248852
