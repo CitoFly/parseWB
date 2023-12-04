@@ -1,7 +1,7 @@
 import threading
 import customtkinter
 from main import get_pages_number, get_filter_info, main_parse
-from csvHandler import numerate_csv, create_csv
+from csvHandler import numerate_csv, create_csv, update_price_file, show_graph
 import csv
 from tkinter import ttk
 from tkinter import *
@@ -31,8 +31,10 @@ class App(customtkinter.CTk):
     def __init__(self):
         super().__init__()
 
+        self.tree = None
         self.progress_bar = None
-        self.ScrollableTableFrame = None
+        self.ScrollableTableFrameV = None
+        self.ScrollableTableFrameH = None
 
         # конфигурация окна
         self.title("Парсер Wildberries v0.3")
@@ -65,9 +67,13 @@ class App(customtkinter.CTk):
                                                         command=self.table_create)
         self.sidebar_button_3.grid(row=3, column=0, padx=20, pady=10)
 
-        # self.sidebar_button_4 = customtkinter.CTkButton(self.sidebar_frame, text="Стоп",
-        #                                                 command=self.create_parse_thread.stop_parse_thread)
-        # self.sidebar_button_4.grid(row=4, column=0, padx=20, pady=10)
+        self.sidebar_button_4 = customtkinter.CTkButton(self.sidebar_frame, text="Создать график",
+                                                        command=self.create_graph)
+        self.sidebar_button_4.grid(row=4, column=0, padx=20, pady=10)
+
+        self.sidebar_button_5 = customtkinter.CTkButton(self.sidebar_frame, text="Внести новые цены",
+                                                        command=self.update_price_list)
+        self.sidebar_button_5.grid(row=4, column=0, padx=20, pady=(90, 0))
 
         # создаем меню тем
         self.appearance_mode_label = customtkinter.CTkLabel(self.sidebar_frame, text="Appearance Mode:", anchor="w")
@@ -93,6 +99,7 @@ class App(customtkinter.CTk):
         self.page_number_label = customtkinter.CTkLabel(self, text="Число страниц:", anchor="w")
         self.page_number_label.grid(row=0, column=2, padx=(20, 0), pady=(16, 0), sticky="new")
         self.page_number_bar = customtkinter.CTkEntry(self)
+        self.page_number_bar.insert(0, "3")
         self.page_number_bar.grid(row=0, column=2, padx=(120, 10), pady=(16, 0), sticky="new")
 
         # создаем прокручиваемое окно для checkbox'ов
@@ -151,21 +158,39 @@ class App(customtkinter.CTk):
     def table_create(self):
         # добавляем данные в таблицу
         with open('wb_data.csv', 'r', newline='') as csvfile:
-            # получаем данные из csv файла
-            wb_table = csv.reader(csvfile, delimiter=',', quotechar='|')
-            # определяем столбцы будущей таблицы
-            heads = next(wb_table)
+            wb_table = csv.reader(csvfile, delimiter=',', quotechar='|')  # получаем данные из csv файла
+            heads = next(wb_table)  # определяем столбцы будущей таблицы
+
             # создание основы таблицы
-            self.ScrollableTableFrame = customtkinter.CTkScrollableFrame(self, orientation="horizontal")
-            self.ScrollableTableFrame.grid(row=0, column=1, padx=(20, 0), pady=(67, 10), rowspan=3, sticky="nsew")
-            tree = ttk.Treeview(master=self.ScrollableTableFrame, columns=heads, show="headings", style="myStyle.Treeview")
-            tree.pack(expand=True, fill="y")
+            self.tree = ttk.Treeview(master=self, columns=heads, show="headings", style="myStyle.Treeview")
+            self.tree.grid(row=0, column=1, padx=(20, 0), pady=(67, 10), rowspan=3, sticky="nsew")
+
+            self.ScrollableTableFrameV = customtkinter.CTkScrollbar(self, orientation="vertical", command=self.tree.yview)
+            self.tree.configure(yscrollcommand=self.ScrollableTableFrameV.set)
+            self.ScrollableTableFrameV.grid(row=0, column=1, padx=(20, 0), pady=(67, 10), rowspan=3, sticky="nse")
+
+            self.ScrollableTableFrameH = customtkinter.CTkScrollbar(self, orientation="horizontal", command=self.tree.xview)
+            self.tree.configure(xscrollcommand=self.ScrollableTableFrameH.set)
+            self.ScrollableTableFrameH.grid(row=2, column=1, padx=(20, 0), pady=(16, 0), sticky="sew")
+
             for head in heads:
-                tree.heading(head, text=head)
-                tree.column(head, anchor=CENTER, stretch=NO, width=100)
+                self.tree.heading(head, text=head)
+                self.tree.column(head, anchor=CENTER, stretch=NO, width=100)
             # заполнение таблицы
             for row in wb_table:
-                tree.insert("", END, values=row)
+                self.tree.insert("", END, values=row)
+
+    def create_graph(self):
+        try:
+            selected_id = self.tree.focus()
+            item_id = int(self.tree.item(selected_id)["values"][1])
+            show_graph(item_id)
+        except:
+            print("Объект не выбран")
+
+    def update_price_list(self):
+        update_price_file()
+        print("Цены успешно сохранены")
 
     def parse_start(self):
         url = self.address_bar.get()
@@ -180,21 +205,22 @@ class App(customtkinter.CTk):
             exit()
 
         print("Начинаем парсинг")
-        # парсим
-        create_csv(checkbox_selected_list)
+        create_csv(checkbox_selected_list)  # парсим
 
         pages_number = int(self.page_number_bar.get()) if self.page_number_bar.get() else int(get_pages_number(url))
         print(f"Число страниц: {pages_number}")
-        self.progress_bar = customtkinter.CTkProgressBar(self, width=130, determinate_speed=100/pages_number/2)
-        self.progress_bar.grid(row=1, column=0, padx=20, pady=10)
+        self.progress_bar = customtkinter.CTkProgressBar(self, determinate_speed=100/pages_number/2)
         self.progress_bar.set(0)
+        self.progress_bar.grid(row=0, column=1, padx=(20, 0), pady=(50, 0), sticky="new")
 
-        for i in range(1, pages_number+1):
-            main_parse(url + f"?page={i}", checkbox_selected_list)
+        for _page in range(1, pages_number+1):
+            main_parse(url + f"?page={_page}", checkbox_selected_list)
             self.progress_bar.step()
+
         # пронумеруем строки
         numerate_csv()
         self.table_create()
+        update_price_file()
 
 
 if __name__ == "__main__":

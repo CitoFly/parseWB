@@ -9,5 +9,3 @@ main.py
 csvHandler.py
 models.py
 wb_data.csv
-
-Остальные пока в разработке

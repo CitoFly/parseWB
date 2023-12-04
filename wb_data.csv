@@ -1,103 +1,305 @@
-0, 0, 0, 0, id,название,цена со скидкой,бренд,продаж,рейтинг,в наличии,Процессор,Объем оперативной памяти (Гб)
-1, 1, 1, 1, 150752538,Подарочная карта с кодами на Robux 800,1583.0,Roblox,15,5.0,1,NaN,NaN
-2, 2, 2, 2, 178623840,MacBook Air 13 M2 8 256 (Midnight),109433.0,Apple,31,0.0,113,Apple M2,8 ГБ
-3, 3, 3, 3, 175879985,MacBook Pro 14 M2 Pro 16 512 (Space Grey),205193.0,Apple,31,5.0,102,Apple M2 Pro,16 ГБ
-4, 4, 4, 4, 149763680,Ноутбук EX215-22-R5D4 15.6 Ryzen 3 8Gb (NX.EG9ER.02M),30769.0,Acer,33,4.0,98,AMD Ryzen 3 3250U,8 ГБ
-5, 5, 5, 5, 172200669,MacBook Air 15 M2 8 512 (Silver),141922.0,Apple,25,5.0,236,Apple M2,8 ГБ
-6, 6, 6, 6, 175880000,MacBook Pro 13 M2 8 256 (Space Grey),119332.0,Apple,29,0.0,115,NaN,8 ГБ
-7, 7, 7, 7, 173817951,Ноутбук V10 8 256,18018.0,Frbby,30,5.0,90,Intel(R) Celeron(R) J4105,8
-8, 8, 8, 8, 168445058,"Ноутбук 15.6"" IPS 4-Ядра RAM 16GB SSD 512GB (M.2)",32837.0,DeltaTech,63,5.0,106,Intel Celeron N5095,16 ГБ
-9, 9, 9, 9, 172200668,MacBook Air 15 M2 8 512 (Space Grey),141922.0,Apple,25,5.0,236,Apple M2,8 ГБ
-10, 10, 10, 10, 182937484,Ноутбук для учебы Litebook 15 C152I-I511-16G-W11 (N156DRP),40490.0,ЗЕОН,42,5.0,92,Intel Core i5 1155G7,16 ГБ
-11, 11, 11, 11, 172232661,MacBook Pro 13 M2 8 512 (Space Grey),133193.0,Apple,33,5.0,114,Apple M2,8 ГБ
-12, 12, 12, 12, 180960538,"Ноутбук EVE 15 P5850 15.6"" N5030 8Gb SSD256Gb W11",27351.0,DIGMA,36,5.0,105,Intel Pentium Silver N5030,8 ГБ
-13, 13, 13, 13, 102656132,"Ноутбук HeroBook Pro; 14.1"" 1920*1080; N4020; 8G; 256GB",22760.0,CHUWI,18,5.0,25,Intel Celeron N N4020,8 ГБ
-14, 14, 14, 14, 149770317,Ноутбук A317-52 17.3FHD i5 8 512 (NX.HZWER.006),43375.0,Acer,25,5.0,98,Intel Core i5 1035G1,8
-15, 15, 15, 15, 157273443,"Ноутбук MiniBook X 10.51"" 1200*1920 N5100 12G 512G Iron Gray",32031.0,CHUWI,19,5.0,34,Intel Celeron N5100,12 гб
-16, 16, 16, 16, 172200661,MacBook Air 15 M2 8 512 (Starlight),141922.0,Apple,25,5.0,236,Apple M2,8 ГБ
-17, 17, 17, 17, 179148623,Ноутбук Legion 5 15ACH6 [82JW00PLRU],71441.0,lenovo,27,0.0,165,AMD Ryzen 5 5600H,16
-18, 18, 18, 18, 182778275,Ноутбук M547 R7-4700U 1920*1080 FHD 60Гц RAM 8ГБ+512ГБ SSD,42299.0,MAIBENBEN,10,0.0,160,AMD Ryzen 7 4700U,8 ГБ
-19, 19, 19, 19, 180961283,"Ноутбук EVE 15 C5800 15.6"" N4020 8Gb SSD256Gb W11",22491.0,DIGMA,40,5.0,105,Intel Celeron N4020,8 ГБ
-20, 20, 20, 20, 167960942,"Ноутбук 14.1"" W10pro SSD512GB Intel Celeron J4105 6 GB",24251.0,Smartx,51,4.0,90,Intel Celeron J4105,6 ГБ
-21, 21, 21, 21, 179148621,Ноутбук Legion Slim 5 16APH8 [82Y9001NRK],148715.0,lenovo,27,0.0,170,AMD Ryzen 7 7840HS,32
-22, 22, 22, 22, 172331046,Ноутбук Aspire 3 A315-35 NX.A6LER.004,35557.0,Acer,25,5.0,18,Intel Pentium N6000,8
-23, 23, 23, 23, 190737224,Ноутбук Vivobook 16 M1605YA-MB002 Ryzen 5 8 512 NoOS,48852.0,ASUS,46,0.0,170,Ryzen 5 7530U,8 ГБ
-24, 24, 24, 24, 172229456,MacBook Air 13 M2 8 512 (Space Grey),138593.0,Apple,30,5.0,104,Apple M2,8 ГБ
-25, 25, 25, 25, 182780805,Ноутбук P527 i7-12700H Arc-A550M(8ГБ) 16ГБ+1024ГБ SSD Win11,75599.0,MAIBENBEN,10,5.0,205,Intel Core i7 12700H,16 ГБ
-26, 26, 26, 26, 138864375,Ноутбук 82HL005TRK(Cel 15;6 1Тб 4Гб UMA noOS),21789.0,lenovo,41,4.0,122,Intel Celeron,4
-27, 27, 27, 27, 149541825,Ноутбук A315-35 15.6 Intel Pentium 4Gb (NX.A6LER.002),25974.0,Acer,34,5.0,98,Intel Pentium Silver N6000 Processor,4 ГБ
-28, 28, 28, 28, 177641590,Inbook Y1 PLUS NEO XL30,27018.0,Infinix,18,5.0,93,Intel Celeron N5100,8 ГБ
-29, 29, 29, 29, 159496818,"Ноутбук 15.6"" IPS 4-Ядра RAM DDR5 12GB SSD 512GB (M.2)",36841.0,DeltaTech,58,5.0,111,Intel Processor N95,12 ГБ
-30, 30, 30, 30, 176803080,Ноутбук MEGABOOK T1 14.1' i5-1155G7;16 ГБ; SSD 512 ГБ; Win11,49490.0,TECNO,0,5.0,138,Intel Core i5 1155G7,16 ГБ
-31, 31, 31, 31, 190839576,"Ноутбук V10 14"" IPS 4-Ядра 1920х1080 FHD RAM 8Gb SSD 256Gb",18270.0,XChagaev,47,0.0,90,NaN,8 ГБ
-32, 32, 32, 32, 177836892,"Ноутбук 15.6"" Pro Fortis M Ryzen 5 5600U 16 SSD1024 W11Pro",51878.0,DIGMA,35,5.0,80,Ryzen 5 5600U,16 ГБ
-33, 33, 33, 33, 173282423,Ноутбук игровой; мощный; для работы; учёбы; дома; 12ГБ,33293.0,DogiFlaps,33,5.0,135,Intel N95 (3.4 ГГц),12; 12 ГБ
-34, 34, 34, 34, 181960633,MacBook Pro 16 M2 Max 32 1 (Space Grey),349912.0,Apple,27,0.0,120,Apple M2 Max,32 ГБ
-35, 35, 35, 35, 182365571,MacBook Pro 16 M2 Pro 16 512 (Silver),228772.0,Apple,26,0.0,116,Apple M2 Pro,16 ГБ
-36, 36, 36, 36, 177640375,Inbook Y1 NEO XL30,27018.0,Infinix,18,0.0,93,Intel Celeron N5100,8 ГБ
-37, 37, 37, 37, 87767220,Ноутбук Corebook Xpro 15.6'';i5-10210U; 8GB+512GB;Win11 HOME,38404.0,CHUWI,20,5.0,123,Intel Core i5-10210U (1.6 ГГц),8 GB
-38, 38, 38, 38, 150753794,Подарочная карта с кодами на Robux 2500,4123.0,Roblox,28,5.0,1,NaN,NaN
-39, 39, 39, 39, 152291175,"Ноутбук Sprint M i5 1135G7 16Gb SSD512Gb 15.6"" W11Pro",46791.0,DIGMA,38,5.0,93,Core i5 1135G7,16 ГБ
-40, 40, 40, 40, 162896740,Ноутбук Magnus M Ryzen 5 5600U 16Gb SSD512Gb W11P,62257.0,DIGMA,32,5.0,174,AMD Ryzen 5 5600U,16 ГБ
-41, 41, 41, 41, 177727353,"Ноутбук Freebook; 13.5"" IPS N100 12G 512G Win11",33471.0,CHUWI,16,5.0,72,Intel N100,12 ГБ
-42, 42, 42, 42, 147691250,"Ноутбук игровой 15.6"" IPS 4-Ядра 12GB SSD 512GB",34200.0,Compolis,55,5.0,106,Intel Celeron N5095,12
-43, 43, 43, 43, 170432951,Ноутбук AORUS 15,142266.0,Gigabyte,28,5.0,31,Intel Core i7 13700H,16 ГБ
-44, 44, 44, 44, 172331047,Ноутбук Nitro 5 AN515-58-56W4 [NH.QFJER.002],83080.0,Acer,20,0.0,29,Intel Core i5 12500H,8
-45, 45, 45, 45, 172232336,MacBook Air 13 M2 8 256 (Space Grey),110873.0,Apple,30,5.0,162,Apple M2,8 ГБ
-46, 46, 46, 46, 175880001,MacBook Pro 13 M2 8 256 (Space Grey),119332.0,Apple,29,0.0,115,NaN,8 ГБ
-47, 47, 47, 47, 172331052,Ноутбук Swift X SFX14-41G R585SGW1 [NX.AU1ER.006],61106.0,Acer,37,5.0,13,AMD Ryzen 5 5500U,8
-48, 48, 48, 48, 172331063,Ноутбук Aspire 5; A515-57 I385SUW1 [NX.K3KER.00E],50409.0,Acer,28,0.0,17,Intel Core i3 1215U,8
-49, 49, 49, 49, 175879996,MacBook Pro 13 M2 8 256 (Silver),119332.0,Apple,29,0.0,115,NaN,8 ГБ
-50, 50, 50, 50, 151775685,"Ноутбук GemiBook Xpro 14.1"" 1920*1080 N100 8G 256G",26496.0,CHUWI,14,5.0,60,Intel N100,8 ГБ
-51, 51, 51, 51, 152300264,"Ноутбук Sprint M i3 1115G4 8Gb SSD256Gb 15.6"" W11Pro",37843.0,DIGMA,38,5.0,93,Core i3 1115G4,8 ГБ
-52, 52, 52, 52, 172232756,MacBook Pro 13 M2 8 512 (Silver),133193.0,Apple,33,5.0,115,Apple M2,8 ГБ
-53, 53, 53, 53, 170432952,Ноутбук AORUS 17H,192862.0,Gigabyte,28,5.0,44,Intel Core i7 13700H,16 ГБ
-54, 54, 54, 54, 177857416,MacBook Pro 16 M2 Pro 16 1 (Space Grey),258292.0,Apple,26,5.0,120,Apple M2 Pro,16 ГБ
-55, 55, 55, 55, 170432942,Ноутбук AERO 14 OLED,134251.0,Gigabyte,28,5.0,22,Intel Core i7 13700H,16 ГБ
-56, 56, 56, 56, 177701702,Inbook X2 PLUS-11th (XL25),56502.0,Infinix,18,0.0,93,Core i7-1195G7; Intel Iris Xe,16 ГБ
-57, 57, 57, 57, 172226670,MacBook Air 15 M2 8 256 (Space Grey),125488.0,Apple,24,5.0,236,Apple M2,8 ГБ
-58, 58, 58, 58, 172331066,Ноутбук Aspire 5 A515-57 NX.K3KER.006,58230.0,Acer,28,5.0,17,Intel Core i5 1235U,16
-59, 59, 59, 59, 177649162,Zerobook Ultra ZL12,80253.0,Infinix,18,5.0,320,Core i9-12900H,16
-60, 60, 60, 60, 182779658,Ноутбук M565 i7-1165G7 16ГБ+512ГБ сенсорный экран FHD Win11,59093.0,MAIBENBEN,11,0.0,160,Intel Core i7 1165G7,16 ГБ
-61, 61, 61, 61, 170432948,Ноутбук AORUS 17H,185348.0,Gigabyte,28,0.0,44,Intel Core i7 13700H,16 ГБ
-62, 62, 62, 62, 172200671,MacBook Air 15 M2 8 256 (Starlight),125488.0,Apple,24,5.0,236,Apple M2,8 ГБ
-63, 63, 63, 63, 177823278,"Ноутбук EVE 15 C423 15.6"" N5030 8Gb SSD256Gb W11Pro",27994.0,DIGMA,38,5.0,101,Intel Pentium Silver N5030,8 ГБ
-64, 64, 64, 64, 172226156,MacBook Air 15 M2 8 256 (Silver),125488.0,Apple,24,5.0,236,Apple M2,8 ГБ
-65, 65, 65, 65, 181176233,"Ноутбук EVE 15 C423 15.6"" Ryzen 3 3200U 8Gb SSD512Gb W11Pro",35018.0,DIGMA,32,5.0,111,Ryzen 3 3200U,16 ГБ
-66, 66, 66, 66, 181322042,Ноутбук Aspire 5 A517-53-32A6 (NX.K62ER.00E),62068.0,Acer,25,0.0,105,Intel Core i3-1215U,8 ГБ
-67, 67, 67, 67, 170432947,Ноутбук AORUS 15X,180338.0,Gigabyte,28,5.0,31,Intel Core i9 13980HX,16 ГБ
-68, 68, 68, 68, 177648109,Inbook Y1 PLUS 10TH XL28,35145.0,Infinix,16,0.0,93,Core-i5 1035G1,8 ГБ
-69, 69, 69, 69, 181890955,Ноутбук T1 i5 16G + 512G (WIN 11GEN 15.6) Gray,47804.0,TECNO,55,0.0,138,Intel Core i5-1035G4 (1.1 ГГц),16 ГБ
-70, 70, 70, 70, 175879998,MacBook Pro 13 M2 8 256 (Silver),119332.0,Apple,29,0.0,115,NaN,8 ГБ
-71, 71, 71, 71, 138800837,Мощный ноутбук Sarbook Nova + Silver,59584.0,SAR,37,4.0,132,AMD Ryzen 7 4800U (1.8 ГГц),20 Гб
-72, 72, 72, 72, 182777957,Ноутбук M545 R5-4500U 1920*1080 FHD 60Гц RAM 8ГБ+SSD 512ГБ,37799.0,MAIBENBEN,10,0.0,160,AMD Ryzen 5 4500U,8 ГБ
-73, 73, 73, 73, 181567605,Ноутбук T1 i5 16G + 512G (DOS 11GEN 14.1) Grey,42512.0,TECNO,55,2.0,68,Intel Core i5 1155G7,16 ГБ
-74, 74, 74, 74, 145882642,"Ноутбук MyBook Eclipse; 17.3"" 16ГБ; 512ГБ SSD; серый",40825.0,Rombica,40,3.0,73,Intel Core i5-10210U,16 ГБ
-75, 75, 75, 75, 178635485,"Ноутбук Sprint M i7 1165G7 16Gb SSD512Gb 15.6"" W11Pro",56692.0,DIGMA,30,5.0,90,Intel Core i7 1165G7,16 ГБ
-76, 76, 76, 76, 150753882,Подарочная карта с кодами на Robux 3000,4976.0,Roblox,28,5.0,1,NaN,NaN
-77, 77, 77, 77, 181079939,"Ноутбук 16"" P615 i5-11320H 2560*1600 QHD RAM 8ГБ+256ГБ SSD",49499.0,MAIBENBEN,10,0.0,205,Intel Core i5 11320H,8 ГБ
-78, 78, 78, 78, 164593610,Карта пополнения 4500,5744.0,Roblox,31,5.0,1,NaN,NaN
-79, 79, 79, 79, 191071847,Ноутбук Lenovo Legion 5 Pro 16ACH6H 82JQ000URK (AMD R,206000.0,,0,0.0,121,NaN,NaN
-80, 80, 80, 80, 175725579,Ноутбук VivoBook M1603QA-MB253 Ryzen,55710.0,ASUS,10,5.0,101,AMD Ryzen 7 5800HS 2.8ГГц,16ГБ DDR4
-81, 81, 81, 81, 178623839,MacBook Air 13 M2 8 512 (Midnight),138593.0,Apple,30,0.0,113,Apple M2,8 ГБ
-82, 82, 82, 82, 191071871,Ноутбук Lenovo Legion Pro 5 16IRX8 82WK0040RK (Core i,261300.0,,0,0.0,121,NaN,NaN
-83, 83, 83, 83, 173102890,Ноутбук Magnus M Ryzen 7 5800H 16Gb SSD512Gb W11P,66379.0,DIGMA,37,5.0,174,AMD Ryzen 7 5800H,16 ГБ
-84, 84, 84, 84, 172331070,Ноутбук Aspire 3 A314-35 NX.A7SER.00G,31784.0,Acer,27,0.0,18,Intel Celeron N4500,8
-85, 85, 85, 85, 172331064,Ноутбук Aspire 5 A515-57 I382SUW1 [NX.K3KER.00F],49266.0,Acer,23,5.0,17,Intel Core i3 1215U,8
-86, 86, 86, 86, 172331044,Ноутбук Aspire 3 A315-43 NX.K7CER.007,52215.0,Acer,25,0.0,18,AMD Ryzen 5 5500U,16
-87, 87, 87, 87, 172331068,Ноутбук Aspire 5 A515-57 I382SUN [NX.K3KER.001],45179.0,Acer,21,0.0,16,Intel Core i3 1215U,8
-88, 88, 88, 88, 173104686,Ноутбук Magnus M Ryzen 9 5900HX 16Gb SSD512Gb W11P,74451.0,DIGMA,39,5.0,174,AMD Ryzen 9 5900HX,16 ГБ
-89, 89, 89, 89, 164183579,"Ноутбук мощный i7 1185G7 15.6"" IPS RAM 16GB DDR4 и SSD 512GB",69644.0,DeltaTech,36,5.0,103,Intel Core i7 1185G7,16 ГБ
-90, 90, 90, 90, 179148625,Ноутбук IdeaPad 5 Pro 16ARH7 [82SN008PRK],80189.0,lenovo,27,0.0,131,AMD Ryzen 7 6800HS,16
-91, 91, 91, 91, 161873342,IdeaPad 3 15IGL05 (81WQ0086RU),34911.0,lenovo,10,1.0,122,Intel Celeron-N4020,8
-92, 92, 92, 92, 191071880,Ноутбук Asus Vivobook Pro 14 OLED N7400Pc-KM225 90NB0,153900.0,,0,0.0,88,NaN,NaN
-93, 93, 93, 93, 71398281,"Ноутбук MagicBook X14 (i3-10110U 8Gb 256Gb SSD 14""FHD UMA Wi…",45766.0,Honor,62,4.0,118,Intel Core i3 10110U,8 ГБ
-94, 94, 94, 94, 172331067,Ноутбук Aspire 3 A315-59 NX.K6TER.002,41735.0,Acer,28,0.0,18,Intel Core i3 1215U,8
-95, 95, 95, 95, 177701704,Y1 PLUS 10TH XL28,35145.0,Infinix,16,0.0,93,Core i5-1035G1,8 ГБ
-96, 96, 96, 96, 172331050,Ноутбук Aspire 3 A315-43 NX.K7CER.008,49882.0,Acer,32,0.0,18,AMD Ryzen 5 5500U,8
-97, 97, 97, 97, 182777675,Ноутбук M545 R5-4500U 1920*1080 FHD 60Гц RAM 8ГБ+256ГБ SSD,35099.0,MAIBENBEN,10,0.0,160,AMD Ryzen 5 4500U,8 ГБ
-98, 98, 98, 98, 181085579,"Ноутбук 15.6"" M565 i5-1135G7 8ГБ+512ГБ 1920*1080 FHD 60Гц",44891.0,MAIBENBEN,22,5.0,160,Intel Core i5 1135G7,8 ГБ
-99, 99, 99, 99, 191071872,Ноутбук Lenovo Legion 5 Pro 16ARH7H 82RG000NRK (AMD R,219700.0,,0,0.0,121,NaN,NaN
-100, 100, 100, 100, 179148634,Ноутбук Legion Slim 5 16APH8 [82Y9000YRK],111536.0,lenovo,27,0.0,165,AMD Ryzen 5 7640HS,16
-101, 101, 101, 101, 169592183,"Ноутбук 15.6"" IPS 4-Ядра 12GB SSD 512GB",34200.0,Compolis,55,5.0,106,Intel Celeron N5095,12 ГБ
-102, 102, 102, 102, 191674670,Ноутбук HP 470 G9 6S716EA (Core i5 1300 MHz (1235U) 8,135400.0,,0,0.0,118,NaN,NaN
+№, id,название,цена со скидкой,бренд,продаж,рейтинг,в наличии,Поверхность экрана,Процессор
+1, 102656132,"Ноутбук HeroBook Pro; 14.1"" 1920*1080; N4020; 8G; 256GB",22760.0,CHUWI,18,5.0,25,NaN,Intel Celeron N N4020
+2, 138864375,Ноутбук 82HL005TRK(Cel 15;6 1Тб 4Гб UMA noOS),21789.0,lenovo,41,4.0,122,NaN,Intel Celeron
+3, 149763680,Ноутбук EX215-22-R5D4 15.6 Ryzen 3 8Gb (NX.EG9ER.02M),30769.0,Acer,33,4.0,98,матовая,AMD Ryzen 3 3250U
+4, 152300264,"Ноутбук Sprint M i3 1115G4 8Gb SSD256Gb 15.6"" W11Pro",35991.0,DIGMA,31,5.0,93,матовая,Core i3 1115G4
+5, 177648109,Inbook Y1 PLUS 10TH XL28,35901.0,Infinix,14,0.0,93,NaN,Core-i5 1035G1
+6, 172232336,MacBook Air 13 M2 8 256 (Space Grey),113752.0,Apple,28,5.0,162,NaN,Apple M2
+7, 190737224,Ноутбук Vivobook 16 M1605YA-MB002 Ryzen 5 8 512 NoOS,50508.0,ASUS,45,0.0,170,матовая,Ryzen 5 7530U
+8, 172229456,MacBook Air 13 M2 8 512 (Space Grey),149392.0,Apple,25,5.0,104,NaN,Apple M2
+9, 177641590,Inbook Y1 PLUS NEO XL30,27909.0,Infinix,15,5.0,93,NaN,Intel Celeron N5100
+10, 192885970,Ноутбук IdeaPad 1 N4020 4 128 Win11,29700.0,Lenovo,50,0.0,224,антибликовая,Intel Celeron N4020
+11, 149541825,Ноутбук A315-35 15.6 Intel Pentium 4Gb (NX.A6LER.002),25974.0,Acer,34,5.0,98,матовая,Intel Pentium Silver N6000 Processor
+12, 190204836,"Ультрабук 14.1"" IPS 6 Гб SSD 512 GB Российская клавиатура",18900.0,FLASHBOOK,55,0.0,120,глянцевая,Intel Celeron N4000
+13, 168445058,"Ноутбук 15.6"" IPS 4-Ядра RAM 16GB SSD 512GB (M.2)",32837.0,DeltaTech,63,4.0,106,NaN,Intel Celeron N5095
+14, 152291175,"Ноутбук Sprint M i5 1135G7 16Gb SSD512Gb 15.6"" W11Pro",46791.0,DIGMA,41,5.0,93,матовая,Core i5 1135G7
+15, 181084136,Ноутбук M543 R3-4300U 1920*1080 FHD RAM 8ГБ+512ГБ SSD,35099.0,MAIBENBEN,10,5.0,160,NaN,AMD Ryzen 3 4300U
+16, 190839576,"Ноутбук V10 14"" IPS 4-Ядра 1920х1080 FHD RAM 8Gb SSD 256Gb",18270.0,XChagaev,47,0.0,90,NaN,NaN
+17, 176803080,Ноутбук MEGABOOK T1 14.1' i5-1155G7;16 ГБ; SSD 512 ГБ; Win11,44541.0,TECNO,10,5.0,138,матовая,Intel Core i5 1155G7
+18, 175880000,MacBook Pro 13 M2 8 256 (Space Grey),126982.0,Apple,25,0.0,115,глянцевая,NaN
+19, 178623840,MacBook Air 13 M2 8 256 (Midnight),110873.0,Apple,30,0.0,113,NaN,Apple M2
+20, 181176233,"Ноутбук EVE 15 C423 15.6"" Ryzen 3 3200U 8Gb SSD512Gb W11Pro",33651.0,DIGMA,34,5.0,111,матовая,Ryzen 3 3200U
+21, 150752538,Подарочная карта с кодами на Robux 800,1583.0,Roblox,15,5.0,1,NaN,NaN
+22, 159496818,"Ноутбук 15.6"" IPS 4-Ядра RAM DDR5 12GB SSD 512GB (M.2)",36841.0,DeltaTech,58,5.0,111,NaN,Intel Processor N95
+23, 173817951,Ноутбук V10 8 256,18720.0,Frbby,28,4.0,90,NaN,Intel(R) Celeron(R) J4105
+24, 180960538,"Ноутбук EVE 15 P5850 15.6"" N5030 8Gb SSD256Gb W11",27351.0,DIGMA,30,5.0,105,матовая,Intel Pentium Silver N5030
+25, 182937482,Ноутбук для учебы Litebook 15 C152I-I511-W11 (N156DRP),38240.0,ЗЕОН,41,5.0,92,антибликовая,Intel Core i5 1155G7
+26, 180961283,"Ноутбук EVE 15 C5800 15.6"" N4020 8Gb SSD256Gb W11",22491.0,DIGMA,30,5.0,105,матовая,Intel Celeron N4020
+27, 157273443,"Ноутбук MiniBook X 10.51"" 1200*1920 N5100 12G 512G Iron Gray",32031.0,CHUWI,19,5.0,34,NaN,Intel Celeron N5100
+28, 150753794,Подарочная карта с кодами на Robux 2500,4123.0,Roblox,28,5.0,1,NaN,NaN
+29, 177857416,MacBook Pro 16 M2 Pro 16 1 (Space Grey),270892.0,Apple,22,5.0,120,NaN,Apple M2 Pro
+30, 151775685,"Ноутбук GemiBook Xpro 14.1"" 1920*1080 N100 8G 256G",26496.0,CHUWI,14,5.0,60,NaN,Intel N100
+31, 182365571,MacBook Pro 16 M2 Pro 16 512 (Silver),231562.0,Apple,25,0.0,116,NaN,Apple M2 Pro
+32, 167819577,Ноутбук Sprint M Ryzen 5 3500U 8Gb SSD256 15.6 W11Pro,37791.0,DIGMA,37,5.0,175,матовая,AMD Ryzen 5 3500U
+33, 71398281,"Ноутбук MagicBook X14 (i3-10110U 8Gb 256Gb SSD 14""FHD UMA Wi…",45766.0,Honor,62,4.0,118,матовая,Intel Core i3 10110U
+34, 177727353,"Ноутбук Freebook; 13.5"" IPS N100 12G 512G Win11",33471.0,CHUWI,16,5.0,72,NaN,Intel N100
+35, 172200668,MacBook Air 15 M2 8 512 (Space Grey),159021.0,Apple,16,5.0,236,NaN,Apple M2
+36, 177836892,"Ноутбук 15.6"" Pro Fortis M Ryzen 5 5600U 16 SSD1024 W11Pro",51021.0,DIGMA,38,5.0,80,матовая,Ryzen 5 5600U
+37, 158445938,Ноутбук 90NX05E1-M010F0 P1512CEA-BQ0825X,58749.0,Asus,36,5.0,97,антибликовая,Intel Core i7 1165G7
+38, 138984624,Ноутбук Vivobook S K3502ZA-KJ445W [90NB0WK3-M00RP0],76655.0,Asus,30,5.0,25,антибликовая,Intel Core i7 12700H
+39, 172200669,MacBook Air 15 M2 8 512 (Silver),159021.0,Apple,16,5.0,236,NaN,Apple M2
+40, 179148647,Ноутбук IdeaPad Slim 5 14IRL8 [82XD001YRK],50489.0,lenovo,23,0.0,101,антибликовая,Intel Core i5-13420H
+41, 149769397,Ноутбук A315-58 15.6 i3 4Gb 1000Gb noOS(NX.ADGER.004),31173.0,Acer,25,0.0,98,NaN,Intel Core i3-1115G4
+42, 156433241,Ноутбук ExpertBook B1 B1500CEAE-BQ4233W,41042.0,Asus,36,0.0,93,NaN,Intel Core i3 1115G4
+43, 181079939,"Ноутбук 16"" P615 i5-11320H 2560*1600 QHD RAM 8ГБ+256ГБ SSD",49499.0,MAIBENBEN,10,0.0,205,NaN,Intel Core i5 11320H
+44, 181081973,Игровой ноутбук X565 R5-6600H RTX4050(6ГБ) 16ГБ+512ГБ 144Гц,81899.0,MAIBENBEN,10,0.0,237,NaN,AMD Ryzen 5 6600H
+45, 177856473,MacBook Pro 16 M2 Pro 16 512 (Silver),239932.0,Apple,22,5.0,116,NaN,Apple M2 Pro
+46, 173102890,Ноутбук Magnus M Ryzen 7 5800H 16Gb SSD512Gb W11P,67491.0,DIGMA,32,5.0,174,матовая,AMD Ryzen 7 5800H
+47, 177823278,"Ноутбук EVE 15 C423 15.6"" N5030 8Gb SSD256Gb W11Pro",28161.0,DIGMA,35,5.0,101,матовая,Intel Pentium Silver N5030
+48, 179148645,Ноутбук IdeaPad 5 Pro 16ARH7 [82SN008QRK],77273.0,lenovo,27,0.0,131,антибликовая,AMD Ryzen 5 6600HS
+49, 182778275,Ноутбук M547 R7-4700U 1920*1080 FHD 60Гц RAM 8ГБ+512ГБ SSD,38699.0,MAIBENBEN,10,5.0,160,NaN,AMD Ryzen 7 4700U
+50, 172200671,MacBook Air 15 M2 8 256 (Starlight),134451.0,Apple,19,5.0,236,NaN,Apple M2
+51, 175879996,MacBook Pro 13 M2 8 256 (Silver),126982.0,Apple,25,0.0,115,глянцевая,NaN
+52, 149769898,Ноутбук A315-58 15.6 i5 4Gb 256Gb noOS(NX.AL0ER.008),41068.0,Acer,25,0.0,98,NaN,Intel Core i5-1135G7
+53, 104235337,"Ноутбук Swift 3 SF314-511-31FS [NX.ABLER.00C]14"" noOS",35661.0,Acer,36,5.0,68,NaN,Intel Core i3 - 1115G4
+54, 164232928,Ноутбук S2; Intel Celeron N5095 (2.9 ГГц),31185.0,DogiFlaps,43,5.0,40,NaN,Intel N5095
+55, 137552854,Ноутбук для учебы M547,44486.0,MAIBENBEN,37,5.0,168,матовая,Ryzen 7 4700U
+56, 177701702,Inbook X2 PLUS-11th (XL25),57744.0,Infinix,16,0.0,93,NaN,Core i7-1195G7; Intel Iris Xe
+57, 138983616,Ноутбук Vivobook S K3502ZA-KJ352W [90NB0WK2-M00RK0],58188.0,Asus,33,5.0,25,антибликовая,Intel Core i5
+58, 179950270,Legion Slim 5 16APH8 [82Y9001PRK],88552.0,lenovo,26,0.0,170,антибликовая,AMD Ryzen 5 7640HS
+59, 116564383,"Ноутбук Thinkbook 15-ITL Core i3 1115G4 8Gb SSD256Gb 15.6"" I…",53810.0,lenovo,36,5.0,175,матовая,Core i3 1115G4
+60, 177640375,Inbook Y1 NEO XL30,27909.0,Infinix,15,0.0,93,NaN,Intel Celeron N5100
+61, 159017244,Ноутбук P1412CEA-EB0911X (90NX05D1-M012U0),61911.0,Asus,36,0.0,87,NaN,Intel Core i7 1165G7
+62, 191970158,Ноутбук 15 X515EA-BQ945W i3 4 256 Win11 серебристый,41580.0,ASUS,50,0.0,111,матовая,Intel Core i3 1115G4
+63, 12783826,"Ноутбук XPS 13 9300 (i5-1035G1 8Gb 512Gb SSD 13;4""",115406.0,Dell,32,5.0,96,матовая,Intel Core i5 1035G1
+64, 169592183,"Ноутбук 15.6"" IPS 4-Ядра 12GB SSD 512GB",34200.0,Compolis,55,5.0,106,матовая,Intel Celeron N5095
+65, 172232756,MacBook Pro 13 M2 8 512 (Silver),147592.0,Apple,26,5.0,115,глянцевая,Apple M2
+66, 175879998,MacBook Pro 13 M2 8 256 (Silver),126982.0,Apple,25,0.0,115,глянцевая,NaN
+67, 122834851,Ноутбук ProBook 650 G8,70637.0,HP,44,0.0,166,матовая,Core i5 1135G7
+68, 164593610,Карта пополнения 4500,5744.0,Roblox,31,5.0,1,NaN,NaN
+69, 175880001,MacBook Pro 13 M2 8 256 (Space Grey),126982.0,Apple,25,0.0,115,глянцевая,NaN
+70, 173104686,Ноутбук Magnus M Ryzen 9 5900HX 16Gb SSD512Gb W11P,71991.0,DIGMA,36,5.0,174,матовая,AMD Ryzen 9 5900HX
+71, 47719802,"Ноутбук Swift 3 SF316-51-50PB (i5-11300H 8Gb 256Gb SSD 16;1""…",58024.0,Acer,27,4.0,99,матовая,Intel Core i5 11300H
+72, 158958788,"Ноутбук EVE 15 P418 15.6"" Celeron N4020C 4Gb eMMC128Gb W11",21566.0,DIGMA,40,5.0,107,матовая,Celeron N4020C
+73, 62934694,Ноутбук TravelMate P2 TMP215-53-36CS (NX.VPVER.00B),52464.0,Acer,39,5.0,105,матовая,Intel Core i3 1115G4
+74, 177701704,Y1 PLUS 10TH XL28,35901.0,Infinix,14,0.0,93,NaN,Core i5-1035G1
+75, 179072709,MacBook Air 13 2022 M2 8 256 ГБ; Silver,110160.0,Apple,10,0.0,139,NaN,Apple M2
+76, 181849747,Ноутбук Legion Pro 5 Gen 8 (82WK00BERK),236152.0,Lenovo,26,0.0,180,антибликовая,Intel Core i7-13700HX
+77, 177649162,Zerobook Ultra ZL12,80253.0,Infinix,18,5.0,320,NaN,Core i9-12900H
+78, 156440734,Ноутбук ExpertBook B1 B1400CEAE-EB6193,47421.0,Asus,35,0.0,89,NaN,Intel Core i5 1135G7
+79, 183377706,Ноутбук Frbby V10 8 256,19237.0,Toptrend,32,5.0,90,NaN,Intel(R) Celeron(R) J4105
+80, 178635485,"Ноутбук Sprint M i7 1165G7 16Gb SSD512Gb 15.6"" W11Pro",55791.0,DIGMA,31,5.0,90,матовая,Intel Core i7 1165G7
+81, 181567605,Ноутбук T1 i5 16G + 512G (DOS 11GEN 14.1) Grey,42512.0,TECNO,55,2.0,68,матовая,Intel Core i5 1155G7
+82, 162879102,Ноутбук Machcreator-14x i5-12500H 16ГБ 512ГБ SSD,51141.0,Machenike,37,4.0,157,матовая,Intel Core i5 12500H
+83, 164183579,"Ноутбук мощный i7 1185G7 15.6"" IPS RAM 16GB DDR4 и SSD 512GB",65720.0,DeltaTech,39,5.0,103,матовая,Intel Core i7 1185G7
+84, 138800837,Мощный ноутбук Sarbook Nova + Silver,54720.0,SAR,42,4.0,132,матовая,AMD Ryzen 7 4800U (1.8 ГГц)
+85, 156431175,Ноутбук ExpertBook B1 B1500CEAE-BQ1999T,39079.0,Asus,35,0.0,93,NaN,Intel Celeron 6305
+86, 181083260,Игровой ноутбук X577 R7-7735H RTX4060(8ГБ) 16ГБ+512ГБ QHD,107999.0,MAIBENBEN,10,0.0,237,NaN,AMD Ryzen 7 7735HS
+87, 104262544,Ноутбук Nitro 5 AN515-45-R4NJ [NH.QBSER.00M] 15.6 noOS,142143.0,Acer,30,3.0,180,NaN,Ryzen 9 5900HX
+88, 190840518,"Ноутбук 15.6"" V 16 pro Intel Celeron 5105 16GB+512GB",30780.0,XChagaev,31,0.0,182,матовая,Intel Celeron J4105
+89, 175879991,MacBook Air 13 M2 8 512 (Space Grey),149392.0,Apple,25,0.0,104,глянцевая,Apple M2
+90, 178155883,Ноутбук Aspire 5 A515-58M-532W (NX.KHEER.002),68183.0,Acer,20,0.0,140,антибликовая,Intel Core i5-1335U
+91, 177855138,MacBook Pro 16 M2 Pro 16 512 (Space Grey),239932.0,Apple,22,5.0,120,NaN,Apple M2 Pro
+92, 181848945,Ноутбук Legion Pro 5 Gen 8 (82WK008FRK),197992.0,Lenovo,20,0.0,180,антибликовая,Intel Core i5-13500HX
+93, 159488380,Ноутбук 90NX0441-M01S10 ExpertBook B1 B1500CEAE-BQ3506X,73089.0,Asus,35,0.0,93,NaN,Intel Core i7 1165G7
+94, 181089128,Игровой ноутбук X627 i7-12650H RTX4060(8ГБ) QHD 16ГБ+512ГБ,108899.0,MAIBENBEN,10,0.0,271,NaN,Intel Core i7 12650H
+95, 172331046,Ноутбук Aspire 3 A315-35 NX.A6LER.004,36414.0,Acer,23,5.0,18,антибликовая,Intel Pentium N6000
+96, 175887812,MacBook Air 13 M2 8 512 (Starlight),149392.0,Apple,25,0.0,104,NaN,Apple M2
+97, 181082774,Игровой ноутбук X527 i7-12650H RTX4060(8ГБ) 16ГБ+512ГБ 144гц,103499.0,MAIBENBEN,10,0.0,237,NaN,Intel Core i7 12650H
+98, 172200661,MacBook Air 15 M2 8 512 (Starlight),159021.0,Apple,16,5.0,236,NaN,Apple M2
+99, 182365565,MacBook Pro 16 M2 Pro 16 512 (Space Grey),231562.0,Apple,25,0.0,120,NaN,Apple M2 Pro
+100, 181850883,Ноутбук Legion Pro 5 Gen 8 (82WK003URK),150961.0,Lenovo,25,0.0,180,антибликовая,Intel Core i5-13500HX
+101, 182780413,Ноутбук P415 i3-1115G4 3000x2000 8ГБ+512ГБ Сенсорный экран,35999.0,MAIBENBEN,10,0.0,205,NaN,Intel Core i3 1115G4
+102, 177859343,MacBook Pro 14 M2 Pro 16 1 (Space Grey),241912.0,Apple,24,5.0,102,NaN,Apple M2 Pro
+103, 178623839,MacBook Air 13 M2 8 512 (Midnight),149392.0,Apple,25,0.0,113,NaN,Apple M2
+104, 179148625,Ноутбук IdeaPad 5 Pro 16ARH7 [82SN008PRK],80189.0,lenovo,27,0.0,131,антибликовая,AMD Ryzen 7 6800HS
+105, 12124394,Ноутбук TravelMate X3 TMX314-51-M-5525 (i5-8265U 8Gb 256Gb S…,79229.0,Acer,33,0.0,109,матовая,Intel Core i5 8265U
+106, 149760799,Ноутбук SF314-43 14 Ryzen 3 8Gb 256Gb (NX.AB1ER.004),43003.0,Acer,25,0.0,98,NaN,AMD Ryzen 3 5300U
+107, 151222976,Zero book Ultra ZL12 Core-i9 15 16GB 512GB,92060.0,Infinix,7,5.0,320,NaN,Core i9-12900H
+108, 158432270,Ноутбук ExpertBook B1 B1500CEAE-BQ4237W,51271.0,Asus,35,0.0,93,NaN,Intel Core i5 1135G7
+109, 181392158,Ноутбук Swift Go SFG16-71-711P (NX.KFSER.003),147897.0,Acer,19,0.0,158,NaN,Intel Core i7-1355U
+110, 181374315,Ноутбук Swift Go SFG14-71-5446 (NX.KMZER.002),114687.0,Acer,19,0.0,121,NaN,Intel Core i5-1335U
+111, 181332791,Ноутбук Aspire 5 A517-53-58YP (NX.K62ER.00A),89262.0,Acer,18,0.0,105,антибликовая,Intel Core i5-1235U
+112, 181859002,Ноутбук IdeaPad 3 Gen 7 (82RN0006RU),72747.0,Lenovo,15,0.0,113,NaN,AMD Ryzen 7 5825U
+113, 182780805,Ноутбук P527 i7-12700H Arc-A550M(8ГБ) 16ГБ+1024ГБ SSD Win11,79199.0,MAIBENBEN,10,5.0,205,NaN,Intel Core i7 12700H
+114, 178163392,Ноутбук Aspire 3 A315-24P-R1LL (NX.KDEER.00G),61092.0,Acer,16,0.0,109,антибликовая,AMD Ryzen 5 7520U
+115, 164727824,S16 16.0'' (2560x1600) IPS 32GB+1TB SSD,152621.0,Machenike,38,0.0,193,матовая,Intel Core i9-12900H
+116, 178141780,Ноутбук Aspire 5 A515-58M-39AP (NX.KHEER.001),57744.0,Acer,19,0.0,140,антибликовая,Intel Core i3 1315U
+117, 177874959,"Ноутбук 14"" IPS 4-Ядра 8GB SSD 256GB",21600.0,,56,4.0,149,NaN,Intel Celeron J4105
+118, 181414931,Ноутбук Aspire 5 Spin 14 A5SP14-51MTN-58R3 (NX.KHTER.001),108717.0,Acer,16,0.0,116,NaN,Intel Core i5-1335U
+119, 164594020,Карта пополнения 10000,12301.0,Roblox,28,5.0,1,NaN,NaN
+120, 169234407,"Ноутбук 14.1"" W10pro SSD512GB Intel Celeron J4105 6 GB",28728.0,Smartx,28,5.0,90,матовая,Intel Celestine J4105
+121, 189288236,"ноутбук Rush i5 12450H 16Gb 1Tb RTX 3050Ti 15.6"" noOS",76941.0,GMNG,39,5.0,165,матовая,Intel Core i5 12450H
+122, 181343266,Ноутбук Aspire 3 A315-24P-R52A (NX.KDEER.00F),60336.0,Acer,19,0.0,109,антибликовая,AMD Ryzen 5 7520U
+123, 190680191,"Ноутбук Sprint M Ryzen 7 3700U 16Gb SSD512Gb 16.1"" W11Pro",49581.0,DIGMA,33,5.0,133,матовая,AMD Ryzen 7 3700U
+124, 181417058,Ноутбук Aspire 5 A515-57-524A (NX.K3KER.00B),68715.0,Acer,17,0.0,123,антибликовая,Intel Core i5-1235U
+125, 139060836,Ноутбук Latitude 3510 Core i3 10110U 8Gb SSD256Gb,108559.0,Dell,37,0.0,128,NaN,NaN
+126, 170432951,Ноутбук AORUS 15,151158.0,Gigabyte,23,5.0,31,NaN,Intel Core i7 13700H
+127, 178158689,Ноутбук Aspire 5 A515-58M-73ZA (NX.KHEER.003),97191.0,Acer,19,0.0,140,антибликовая,Intel Core i7-1355U
+128, 163495425,Ноутбук Nitro 5 AN515-58-75GT (NH.QFMER.008) Черный,108239.0,Acer,23,0.0,123,антибликовая,Intel Core i7 12700H
+129, 178170599,Ноутбук Aspire 5 A517-53-51E9 (NX.K62ER.002),75793.0,Acer,15,0.0,161,антибликовая,Intel Core i5-1235U
+130, 170432948,Ноутбук AORUS 17H,196932.0,Gigabyte,23,0.0,44,матовая,Intel Core i7 13700H
+131, 181874366,Ноутбук T1 i5 16G + 512G (WIN 11GEN 14.1) Grey,42512.0,TECNO,55,0.0,138,матовое,Intel Core i5-1035G4 (1.1 ГГц)
+132, 172226670,MacBook Air 15 M2 8 256 (Space Grey),138933.0,Apple,16,5.0,236,NaN,Apple M2
+133, 181353561,Ноутбук Aspire 3 A315-24P-R6SK (NX.KDEER.00A),57951.0,Acer,17,0.0,109,антибликовая,AMD Ryzen 3 7320U
+134, 190687542,"Ноутбук Sprint M Ryzen 7 3700U 8Gb SSD256Gb 16.1"" W11Pro",42741.0,DIGMA,41,5.0,133,матовая,AMD Ryzen 7 3700U
+135, 181862627,Ноутбук IdeaPad 3 Gen 6 (82H8024SRK),66231.0,Lenovo,17,5.0,123,антибликовая,Intel Core i7-1165G7
+136, 172232661,MacBook Pro 13 M2 8 512 (Space Grey),147592.0,Apple,26,5.0,114,глянцевая,Apple M2
+137, 170432952,Ноутбук AORUS 17H,200094.0,Gigabyte,25,5.0,44,матовая,Intel Core i7 13700H
+138, 178179543,Ноутбук Aspire 5 A517-53G-563F (NX.K66ER.006),93141.0,Acer,19,0.0,161,антибликовая,Intel Core i5-1235U
+139, 181375385,Ноутбук Swift Go SFG14-71-76T2 (NX.KMZER.003),133317.0,Acer,19,0.0,121,NaN,Intel Core i7-1355U
+140, 166346095,Ноутбук X515EA-BQ1189W 15.6 i3 8Gb (90NB0TY1-M25390),47383.0,Asus,7,5.0,28,NaN,Intel Core i3 1115G4
+141, 147334332,Inbook X2-11th XL23 14 Core-i5 8GB 512GB,51149.0,Infinix,7,5.0,90,NaN,Intel Core i5-1155G7; Intel Iris Xe
+142, 171206045,Ноутбук ультратонкий 4-Ядра 8GB SSD 256GB,24480.0,ShopOpt,64,5.0,118,матовая,Intel Celeron J4125
+143, 172331047,Ноутбук Nitro 5 AN515-58-56W4 [NH.QFJER.002],85913.0,Acer,18,0.0,29,матовая,Intel Core i5 12500H
+144, 147691250,"Ноутбук игровой 15.6"" IPS 4-Ядра 12GB SSD 512GB",34200.0,Compolis,55,5.0,106,матовая,Intel Celeron N5095
+145, 163211350,Ноутбук IdeaPad Gaming 3 Gen 7 (82SA00DKRK),115139.0,lenovo,12,5.0,140,антибликовая,Intel Core i7-12700H
+146, 182937484,Ноутбук для учебы Litebook 15 C152I-I511-16G-W11 (N156DRP),40490.0,ЗЕОН,42,5.0,92,антибликовая,Intel Core i5 1155G7
+147, 170364503,Ноутбук для учебы MagicBook X14 5301AFJX Win11,57185.0,Honor,37,0.0,95,матовая,Intel Core i5 12450H
+148, 170590478,Ноутбук Zenbook Pro UX7602VI-MY034X Black,404991.0,Asus,10,0.0,280,глянцевая,Intel
+149, 182777675,Ноутбук M545 R5-4500U 1920*1080 FHD 60Гц RAM 8ГБ+256ГБ SSD,36899.0,MAIBENBEN,10,0.0,160,NaN,AMD Ryzen 5 4500U
+150, 181856591,Ноутбук Legion 5 Gen 7 (82RB00ERRK),132088.0,Lenovo,14,0.0,173,антибликовая,Intel Core i5-12500H
+151, 181368543,Ноутбук Swift Go SFG14-71-3745 (NX.KMZER.001),91197.0,Acer,19,0.0,121,NaN,Intel Core i3-1315U
+152, 110358612,"Ноутбук Ryzen 5-5500U 8Gb SSD512Gb 15;6"" IPS FHD NoOS",61923.0,HP,41,5.0,123,матовая,Ryzen 5 5500U
+153, 166315679,Ноутбук UM3402YA-KP298W 14 R5 8Gb,59179.0,Asus,33,5.0,22,NaN,AMD Ryzen 5 5625U
+154, 172331066,Ноутбук Aspire 5 A515-57 NX.K3KER.006,60442.0,Acer,26,5.0,17,антибликовая,Intel Core i5 1235U
+155, 182624663,Ноутбук Predator Nitro 5 AN515-58-73DQ i7-12700H 16ГБ 1ТБ,94244.0,Acer,36,0.0,95,NaN,Intel Core i7 i7-12700H
+156, 170432937,Ноутбук AORUS 15X,170319.0,Gigabyte,23,5.0,31,NaN,Intel Core i9 13900HX
+157, 163211340,Ноутбук ThinkPad X13 Gen 3 (21BQS3MJ00),84021.0,lenovo,18,0.0,88,антибликовая,Intel Core i5-1235U
+158, 159598639,Ноутбук ROG M16 Zephyrus GU603ZE-K8033,151497.0,Asus,7,5.0,146,антибликовая,Intel Core i7 12700H
+159, 181086016,Ноутбук M543 R3-4300U 1920*1080 FHD 60Гц RAM 8ГБ+256ГБ SSD,33299.0,MAIBENBEN,10,5.0,160,NaN,AMD Ryzen 3 4300U
+160, 166360996,Ноутбук UX7602ZM-ME101X 16 i9 32Gb (90NB0WU1-M009J0),232485.0,Asus,33,5.0,29,NaN,Intel Core i9 12900H
+161, 172331055,Ноутбук Nitro 5 AN515-58 I7165SGN [NH.QFLER.00B],96363.0,Acer,22,0.0,29,NaN,Intel Core i7 12700H
+162, 159512307,Ноутбук Extensa 15 EX215-31-C4BN,42399.0,Acer,37,0.0,56,матовая,N4020
+163, 170970718,"Ноутбук 14"" IPS 4-Ядра 8GB SSD 256GB",21600.0,Smart Sensor,56,4.0,133,NaN,Intel(R) Celeron(R) J4105
+164, 162896740,Ноутбук Magnus M Ryzen 5 5600U 16Gb SSD512Gb W11P,67491.0,DIGMA,10,5.0,174,матовая,AMD Ryzen 5 5600U
+165, 145882642,"Ноутбук MyBook Eclipse; 17.3"" 16ГБ; 512ГБ SSD; серый",43299.0,Rombica,37,3.0,73,NaN,Intel Core i5-10210U
+166, 170432947,Ноутбук AORUS 15X,191609.0,Gigabyte,23,5.0,31,NaN,Intel Core i9 13980HX
+167, 163495440,Ноутбук Aspire 5 A517-53-743Z (NX.K62ER.004),94383.0,Acer,17,0.0,116,антибликовая,Intel Core i7 1255U
+168, 163211354,Ноутбук ThinkPad L13 Gen 3 (21B4S2U500),72190.0,lenovo,24,0.0,126,антибликовая,Intel Core i5-1235U
+169, 181876751,Ноутбук Legion 5 Pro Gen 7 (82RF00H9RK),230391.0,Lenovo,10,0.0,176,антибликовая,Intel Core i9-12900H
+170, 171184207,Ноутбук M1603QA R7 8Gb 512Gb DOS [90NB0Y82-M00F70],57657.0,Asus,20,5.0,29,NaN,AMD Ryzen 7 5800H
+171, 172226156,MacBook Air 15 M2 8 256 (Silver),138933.0,Apple,16,5.0,236,NaN,Apple M2
+172, 181875737,Ноутбук Legion Pro 7 Gen 8 (82WQ006LRK),401031.0,Lenovo,10,0.0,205,антибликовая,Intel Core i9-13900HX
+173, 191578606,"Ноутбук GemiBook Plus 15.6"" N100 16G 512G Win11",32391.0,CHUWI,19,5.0,60,NaN,Intel N100
+174, 163495433,Ноутбук Aspire 3 A315-59-77HY (NX.K6SER.00M),71984.0,Acer,20,0.0,123,матовая,Intel Core i7 1255U
+175, 158704116,"Ноутбук игровой TUF A15 Ryzen 7 7735HS 16 ГБ 512ГБ 15.6"" IPS",109431.0,Asus,28,5.0,133,антибликовая; матовая,AMD Ryzen 7 7735HS
+176, 173322246,Ноутбук VivoBook A543MA-DM1198 (90NB0IR7-M23190),39748.0,Asus,14,0.0,107,NaN,Intel Pentium N5030
+177, 173098769,Ноутбук IdeaPad 3 15ITL05 (81X80059RU),49106.0,lenovo,14,0.0,168,NaN,Intel Core i3 1115G4
+178, 172331070,Ноутбук Aspire 3 A314-35 NX.A7SER.00G,32569.0,Acer,25,0.0,18,NaN,Intel Celeron N4500
+179, 114061504,"Ноутбук TravelMate P2 Core i7-1165G7 16Gb SSD512Gb 15.6"" IPS…",100028.0,Acer,33,5.0,68,матовая,Core i7 1165G7
+180, 185482132,"P1 15.6"" Ноутбук; Intel Celeron J4125; 12+512ГБ IPS",30591.0,IPASON,10,0.0,135,NaN,Intel Celeron J4125
+181, 176985920,"Ноутбук Legion Pro 5 16IRX8 16"" WQXGA (82WK005HRK)",167391.0,Lenovo,10,0.0,186,антибликовая,Intel Core i7-13700HX
+182, 163123296,Ноутбук IdeaPad 5 Pro Gen 6 (82L900DWRK),82162.0,lenovo,25,0.0,193,антибликовая,Intel Core i5-11320H
+183, 172331044,Ноутбук Aspire 3 A315-43 NX.K7CER.007,54102.0,Acer,22,0.0,18,NaN,AMD Ryzen 5 5500U
+184, 182365564,MacBook Pro 14 M2 Pro 16 1 (Space Grey),249472.0,Apple,24,0.0,102,NaN,Apple M2 Pro
+185, 170432942,Ноутбук AERO 14 OLED,137608.0,Gigabyte,26,5.0,22,NaN,Intel Core i7 13700H
+186, 123583961,Ноутбук ThinkBook 14-ITL,79727.0,lenovo,39,5.0,166,матовая,Core i5 1135G7
+187, 139348251,Ноутбук WORKBOOK N1567RH;цвет серебристый,51372.0,HIPER,10,0.0,99,NaN,Intel Core i5 10210U
+188, 163495446,Ноутбук Swift X SFX14-41G-R5US (NX.AC2ER.001),68104.0,Acer,20,0.0,104,матовая,AMD Ryzen 5 5500U
+189, 84404132,"Ноутбук Lime C156PP NOS Core i5-8259U 8Gb SSD256Gb 15.6"" IPS…",42987.0,ACD Lime,37,4.0,41,матовая,Core i5 8259U
+190, 181422352,Ноутбук Aspire 3 A315-23-R36F (NX.HVTER.02L),47367.0,Acer,15,0.0,104,антибликовая,AMD Ryzen 5 3500U
+191, 172331052,Ноутбук Swift X SFX14-41G R585SGW1 [NX.AU1ER.006],62877.0,Acer,36,5.0,13,NaN,AMD Ryzen 5 5500U
+192, 172331063,Ноутбук Aspire 5; A515-57 I385SUW1 [NX.K3KER.00E],51686.0,Acer,27,0.0,17,антибликовая,Intel Core i3 1215U
+193, 172331067,Ноутбук Aspire 3 A315-59 NX.K6TER.002,42792.0,Acer,27,0.0,18,NaN,Intel Core i3 1215U
+194, 172227537,MacBook Air 15 M2 8 256 (Starlight),138933.0,Apple,16,2.0,236,NaN,Apple M2
+195, 62934690,"Ноутбук Probook 650 G8 Core i5 1135G7 8Gb SSD256Gb 15;6"" IPS…",90520.0,HP,33,0.0,123,матовая,Core i5 1135G7
+196, 110358616,"Ноутбук TravelMate P2 Core i5 10210U 8Gb SSD256Gb 14"" IPS FH…",66265.0,Acer,34,0.0,68,матовая,Core i5 10210U
+197, 116564387,Ноутбук Lime 15;6 CN1-156P,48261.0,ACD Lime,33,5.0,112,матовая,Core i5 8259U
+198, 163495449,Ноутбук Aspire 5 A515-57-51W3 (NX.K3KER.006),65361.0,Acer,16,0.0,123,антибликовая,Intel Core i5 1235U
+199, 182779658,Ноутбук M565 i7-1165G7 16ГБ+512ГБ сенсорный экран FHD Win11,65339.0,MAIBENBEN,10,0.0,160,NaN,Intel Core i7 1165G7
+200, 163211338,Ноутбук ThinkPad X13 Gen 3 (21CNS0UY00),101052.0,lenovo,14,0.0,110,антибликовая,AMD Ryzen 5 PRO 6650U
+201, 163111049,Ноутбук Legion 5 Gen 6 (82JU019YRK),159021.0,lenovo,16,0.0,123,антибликовая,AMD Ryzen 7 5800H
+202, 163495445,Ноутбук Aspire 3 A315-24P-R2B8 (NX.KDEER.00D),45335.0,Acer,25,0.0,123,матовая,AMD Ryzen 5 7520U
+203, 172331068,Ноутбук Aspire 5 A515-57 I382SUN [NX.K3KER.001],46737.0,Acer,19,0.0,16,антибликовая,Intel Core i3 1215U
+204, 182777957,Ноутбук M545 R5-4500U 1920*1080 FHD 60Гц RAM 8ГБ+SSD 512ГБ,38879.0,MAIBENBEN,10,0.0,160,NaN,AMD Ryzen 5 4500U
+205, 118789544,"Ноутбук TravelMate P6 Core i7 10510U 8Gb SSD256Gb 14"" Touch…",100491.0,Acer,33,0.0,56,Матовая (антибликовая),Core i7 10510U
+206, 154576176,"Ноутбук 14EC5 i5 1135G7 8Gb SSD1Tb 14.1"" IPS FHD DOS",37611.0,iRU,23,5.0,882,NaN,Intel Core i5 1135G7
+207, 144890969,"Ноутбук ThinkPad E15 G2 15.6"" FHD i5 16Gb 512SSD W11H",111114.0,lenovo,10,0.0,120,матовое,NaN
+208, 146339585,"Ноутбук игровой ROG Zephyrus G15 R9 16 ГБ 1ТБ 3080 15.6"" IPS",162891.0,Asus,28,0.0,401,антибликовая,AMD Ryzen 9 6900HS
+209, 178959238,"Ноутбук 15s-fq0068ur; 15.6"" 128 ГБ (3B3N9EA)",54891.0,HP,10,0.0,95,матовая,Intel Pentium Silver N5030
+210, 164593077,Карта пополнения 1700,2648.0,Roblox,17,5.0,1,NaN,NaN
+211, 172331043,Ноутбук Swift 3 SF314-512 I585SUW1 [NX.K7MER.002],74092.0,Acer,19,0.0,14,антибликовая,Intel Core i5 1240P
+212, 172331061,Ноутбук Aspire 5 A514-55 I382SUW1 [NX.K5DER.001],50925.0,Acer,20,0.0,16,NaN,Intel Core i3 1215U
+213, 182543253,"P1 15.6"" Ноутбук; Intel Celeron J4125; 12+256ГБ IPS",28791.0,IPASON,10,0.0,135,NaN,Intel Celeron J4125
+214, 172331050,Ноутбук Aspire 3 A315-43 NX.K7CER.008,53873.0,Acer,27,0.0,18,NaN,AMD Ryzen 5 5500U
+215, 163495420,Ноутбук игровой Nitro 5 AN515-46-R031 (NH.QGZER.007),111852.0,Acer,19,5.0,175,антибликовая,AMD Ryzen 7 6800H
+216, 172331065,Ноутбук Nitro 5 AN515-46 (NH.QGYER.009),84559.0,Acer,14,0.0,23,NaN,AMD Ryzen 5 6600H
+217, 181295690,"Ноутбук 14"" S435 R5-3450U 8ГБ+512ГБ SSD Radeon Vega 8 FHD",30599.0,KUANLITU,10,3.0,127,NaN,AMD Ryzen 5 3450U
+218, 170432939,Ноутбук AERO 14 OLED,145309.0,Gigabyte,26,5.0,22,NaN,Intel Core i7 13700H
+219, 140964775,"Ноутбук ZBookFury 17G8 17.3""512Gb SSD NVIDIA T1200 W10Pro",221220.0,HP,10,0.0,143,матовое,Intel Core i7-11800H (4.6 ГГц)
+220, 185482101,"P2 14.1"" Ноутбук; Intel Celeron N5100 12+512ГБ",32391.0,IPASON,10,0.0,102,NaN,Intel Celeron N5100
+221, 173639603,MateBook D 15 (53013urv); 15.6-i5-8-256-без ОС,41788.0,Huawei,22,5.0,120,матовая,Intel Core i5 1155G7
+222, 172331059,Ноутбук Aspire 5 A515-57 I7165SUW1 [NX.K3KER.004],105642.0,Acer,18,0.0,17,антибликовая,Intel Core i7 1255U
+223, 172331042,Ноутбук Swift 3 SF314-511 I382SUW1 [NX.ACWER.008],52617.0,Acer,21,0.0,14,NaN,Intel Core i3 1115G4
+224, 140964787,"Ноутбук ProBook 450 G9 15.6"" 16Gb 512Gb SSD W11Pro",163377.0,HP,10,1.0,101,матовое,Intel Core i7-1255U (3.5 ГГц)
+225, 98823968,Ноутбук MagicBook 14; Intel i5-1135G7 8 512Гб,82480.0,Honor,23,0.0,86,матовая,Intel Core i5-1135G7 (2.4 ГГц)
+226, 163211349,Ноутбук ThinkPad X13 Gen 3 (21BQS3SU00),97393.0,lenovo,19,0.0,88,антибликовая,Intel Core i5-1235U
+227, 170432944,Ноутбук AORUS 17X,231277.0,Gigabyte,25,5.0,49,NaN,Intel Core i9 13900HX
+228, 30403752,Ноутбук IdeaPad S145-15IIL (i3-1005G1 4Gb 256Gb SSD,44991.0,lenovo,10,3.0,120,матовая,Intel Core i3 1005G1
+229, 172331060,Ноутбук Swift 3 SF314-512 I5165SUW1 [NX.K7MER.006],83349.0,Acer,19,0.0,14,антибликовая,Intel Core i5 1240P
+230, 172331058,Ноутбук Aspire 5 A514-55 NX.K5DER.00G,51686.0,Acer,27,0.0,16,антибликовая,Intel Core i3 1215U
+231, 149756682,Ноутбук A317-52 17.3FHD i5 4Gb 512Gb noOS(NX.HZWER.006),54219.0,Acer,7,0.0,98,NaN,Intel Core i5-1035G1
+232, 171178152,Ноутбук X1503Z,76824.0,Asus,20,5.0,27,NaN,Intel Core i5 12500H
+233, 182780696,"P2 14.1"" Ноутбук; Intel Celeron N5100 12+256ГБ",30591.0,IPASON,10,0.0,102,NaN,Intel Celeron N5100
+234, 172331056,Ноутбук Nitro 5 AN515-46 R7165SGN [NH.QGZER.007],119149.0,Acer,17,0.0,29,NaN,AMD Ryzen 7 6800H
+235, 182627737,Predator Nitro 5 AN515-46-R2RQ (NH.QGZER.00D); черный,109021.0,Acer,36,0.0,95,NaN,AMD Ryzen 5 6600H
+236, 163211348,Ноутбук ThinkPad X13 Gen 3 (21BQS3ST00),112870.0,lenovo,12,0.0,88,антибликовая,Intel Core i7-1255U
+237, 172331057,Ноутбук Aspire 5 A514-55 I5165SUW1 [NX.K5DER.009],66408.0,Acer,25,0.0,16,антибликовая,Intel Core i5 1235U
+238, 163211337,Ноутбук ThinkPad L13 Gen 3 (21BAS0SD00),87112.0,lenovo,20,0.0,126,антибликовая,AMD Ryzen 7 PRO 5875U
+239, 166284593,Ноутбук 15.6 IPS 4-Ядра DDR 4 16 GB SSD 512 GB W10pro,31536.0,Ganiev,56,4.0,108,матовая,Intel Celeron N5095
+240, 158602316,"Ноутбук ThinkPad T480 i5-8250U 14""",38523.0,lenovo,52,5.0,153,глянцевая,intel core i5-8250U
+241, 180790523,"Ноутбук RB-1750 17.3"" Intel 4x2.0GHz; 16Gb; 256Gb SSD",36054.0,Azerty,10,5.0,116,матовое,Intel Celeron N5095 (2.0 ГГц)
+242, 150753350,Подарочная карта с кодами на Robux 2000,3269.0,Roblox,28,5.0,1,NaN,NaN
+243, 182627128,Ноутбук Predator Nitro 5 AN515-46-R5B3 R7 6800H 16ГБ 1ТБ SSD,101832.0,Acer,36,0.0,95,NaN,AMD Ryzen 7 6800H
+244, 183427309,Ноутбук Inbook X3 XL422 (71008301342),71991.0,Infinix,10,0.0,77,матовая,Intel
+245, 177452105,Vivobook X1704ZA-AU123; 17.3-i5-16-512-безОС,58779.0,ASUS,17,5.0,164,матовая,Intel Core i5-1235U
+246, 163123303,Ноутбук IdeaPad 5 Pro Gen 6 (82L900ARRU),104751.0,lenovo,12,0.0,193,антибликовая,Intel Core i5-11300H
+247, 180895729,"Ноутбук Swift 3 SF314-512-744D [NX.K0FER.004] 14"" Win11",81640.0,Acer,28,0.0,95,NaN,Intel Core i7 i7-1260P
+248, 174404477,"Ультрабук 14.1"" IPS 6 Гб SSD 1 TB Российская клавиатура",20736.0,FLASHBOOK,56,4.0,120,глянцевая,Intel Celeron N3350
+249, 104198041,"Ноутбук Aspire A315-34-C7L6 [NX.HE3ER.022] 15;6"" DOS",30215.0,Acer,7,3.0,98,NaN,Intel Celeron - N4020
+250, 181027582,Ноутбук 15-dw3004ur <2Y4E8EA> i3-1115G4,62991.0,HP,10,0.0,180,NaN,NaN
+251, 172331053,Ноутбук Swift 3 SF314-43 R582SUW1 [NX.AB1ER.00U],64832.0,Acer,17,0.0,14,NaN,AMD Ryzen 5 5500U
+252, 182626285,Ноутбук Predator Triton 300 SE PT316-51s-700X i7-12700H,117408.0,Acer,36,0.0,112,NaN,Intel Core i7 i7-12700H
+253, 190128204,"Ноутбук 14"" IPS 4-Ядра 8GB SSD 256GB",24300.0,TOKOM,10,0.0,149,матовая,Intel Celeron J4105
+254, 180910640,"Ноутбук Swift 3 SF314-512-55DD [NX.K0FER.003] 14"" Win11",64740.0,Acer,36,0.0,95,NaN,Intel Core i5 i5-1240P
+255, 192257799,Ноутбук Swift Go SFG14-71-51EJ (NX.KMZCD.002),98991.0,Acer,10,0.0,99,глянцевая,Iris Xe Graphics
+256, 191366923,Ноутбук Inbook Y2 PLUS XL29 (71008301120),38691.0,Infinix,10,0.0,101,матовая,Intel Core i3 1115G4
+257, 158141070,"Ноутбук AZ-1702 17.3"" Intel 4x2.0GHz; 12Gb; 1Tb SSD",37539.0,Azerty,10,5.0,164,глянцевая,Intel Celeron J4125 (2.0 ГГц)
+258, 174253195,"Ноутбук RB-1551 15.6"" Intel 4x2.0GHz; 16Gb; 512Gb SSD",30285.0,Azerty,10,5.0,84,матовое,Intel Celeron N5095 (2.0 ГГц)
+259, 140309925,Ноутбук VivoBook 15X R7 16 512ГБ Radeon Graphics 15.6'' OLED,70731.0,Asus,28,5.0,97,глянцевая,AMD Ryzen 7 5800H
+260, 180782820,"Ноутбук RB-1451 14"" Intel 2х1.10GHz; 6Gb; 256Gb SSD",21150.0,Azerty,10,5.0,86,матовое,Intel Celeron N4020 (1.1 ГГц)
+261, 150753245,Подарочная карта с кодами на Robux 1500,2645.0,Roblox,24,5.0,1,NaN,NaN
+262, 140336184,"Ноутбук EXPERTBOOK MTL1577 15.6""",65961.0,HIPER,26,0.0,102,NaN,AMD Ryzen 7 5800U 1.9ГГц
+263, 150752379,Подарочная карта с кодами на Robux 200,539.0,Roblox,10,5.0,1,NaN,NaN
+264, 161873342,IdeaPad 3 15IGL05 (81WQ0086RU),40491.0,lenovo,10,1.0,122,антибликовая,Intel Celeron-N4020
+265, 182098650,"Ноутбук 15.6"" IPS 4-Ядра RAM 16GB SSD 512GB (M.2)",40500.0,Smart Sensor,59,4.0,139,NaN,Intel Celeron N5095
+266, 183784321,Ноутбук игровой TUF Gaming F15 FX507ZU4-LP114,134091.0,Asus,28,0.0,133,матовая; антибликовая,Intel Core i7-12700H 12-го поколения; тактовая частота 2;3 ГГц
+267, 158141076,"Ноутбук AZ-1506 15.6"" Intel 4x2.0GHz; 8Gb; 256Gb SSD",28341.0,Azerty,10,5.0,108,матовое,Intel Celeron J4125 (2.0 ГГц)
+268, 192269860,Ноутбук IdeaPad 1 (82V700DURK),31491.0,Lenovo,10,0.0,224,антибликовая,Intel Celeron N4020
+269, 191366925,Ноутбук Inbook X3 PLUS XL31 (71008301219),75231.0,Infinix,10,0.0,77,матовая,Intel Iris Xe Graphics
+270, 180987760,MagicBook 14; R5500-16-512-безОС,53559.0,Honor,16,5.0,132,матовая,AMD Ryzen 5 5500U
+271, 169153818,Ноутбук Фрбби V10,20313.0,Frbby,45,5.0,90,NaN,Intel(R) Celeron(R) J4105
+272, 158141108,"Ноутбук AZ-1504 15.6"" Intel 4x1.5Ghz; 8Gb; 1Tb SSD",30186.0,Azerty,10,5.0,108,матовое,Intel Celeron J3455 (1.5 ГГц)
+273, 187888370,"Ноутбук RB-1451 14"" Intel N4020 2x1.1Ghz; 6Gb; 128Gb SSD",17370.0,Azerty,10,5.0,86,матовая,Intel Celeron N4020 (1.1 ГГц)
+274, 183217401,Ноутбук 15 EX215-52-37SE FHD i3-1005G1 4Gb 1Tb NoOs,30546.0,Acer,12,0.0,84,NaN,Intel Core i3 - 1005G1
+275, 182937481,Ноутбук для учебы Litebook 15 C152I-I311-W11 (N156DRP),33299.0,ЗЕОН,45,5.0,94,матовая,Intel Core i3 1115G4
+276, 150753882,Подарочная карта с кодами на Robux 3000,4976.0,Roblox,28,5.0,1,NaN,NaN
+277, 177993996,Ноутбук A515-45G-R26X Ryzen 7 8GB SSD 512GB RadeonRX640,49680.0,Acer,37,5.0,98,матовая,AMD Ryzen 7 5700U
+278, 158141080,"Ноутбук AZ-1504 15.6"" Intel 4x1.5GHz; 8Gb; 256Gb SSD",26334.0,Azerty,10,5.0,72,матовое,Intel Celeron J3455 (1.5 ГГц)
+279, 185692022,"Ноутбук 17"" P727 Core i7 16G 512G SSD Win11",75865.0,Maibenben,20,0.0,281,антибликовая,Intel Core i7-12650H 2.3 ГГц
+280, 104180100,Ноутбук Aspire A315-34-C34A,29657.0,Acer,7,3.0,109,NaN,Intel Celeron N4020
+281, 183973424,MacBook Air 15 M2; 8 512 ГБ; Midnight,155160.0,Apple,10,0.0,236,NaN,Apple M2
+282, 176501260,Подставка для ноутбука алюминиевая,680.0,OPENTHEBEST,75,5.0,5,NaN,NaN
+283, 177638667,PROBOOK 450 G9 I7-1255U 8GB 512GBSSD NVDA GEF MX570 - 2GB,94038.0,HP,12,0.0,270,Матовая,INTEL I7-1255U
+284, 180285398,"15"" Ноутбук IdeaPad Slim 3 15AMN8 AMD Ryzen 5 8ГБ SSD 256ГБ",41841.0,lenovo,16,0.0,137,матовая,AMD Ryzen 5 7520U (2.8 ГГц)
+285, 158141078,"Ноутбук AZ-1505 15.6"" Intel 4x2.0GHz; 12Gb; 1 Tb SSD",33219.0,Azerty,10,5.0,108,матовое,Intel Celeron J4125 (2.0 ГГц)
+286, 149260428,"15 6"" Notebook Intel Celeron N5095 2 0 GHz 16GB SSD 512Gb",29646.0,,10,5.0,106,NaN,Intel Celeron N5095A 2.00GHz 4 ядра
+287, 164594446,Карта пополнения 22500,21734.0,Roblox,32,5.0,1,NaN,NaN
+288, 150754211,Подарочная карта с кодами на Robux 5000,8318.0,Roblox,28,5.0,1,NaN,NaN
+289, 182913392,Ноутбук MacBook Air 13 M2 256Gb; Midnight Темная ночь,121491.0,Apple,10,0.0,168,NaN,M2
+290, 185359267,"Ноутбук 15.6"" M565 Core i5-1135G7 8G 512G SSD",49164.0,Maibenben,21,0.0,281,антибликовая,Intel Core i5-1135G7 2.4 ГГц
+291, 176446255,Подставка для ноутбука алюминиевая,680.0,OPENTHEBEST,75,0.0,5,NaN,NaN
+292, 185735145,"Ноутбук 15.6"" VivoBook 15X AMD Ryzen 7 16G 512G SSD",73480.0,Asus,16,0.0,97,глянцевая,AMD Ryzen 7-5800H
+293, 183773722,Ноутбук игровой ROG Zephyrus G16 GU603ZU-N4050,168291.0,Asus,28,0.0,137,матовая; антибликовая,Intel Core i7-12700H 12-го поколения; тактовая частота 2;3 ГГц
+294, 182280189,Ноутбук K3605ZC-N1155 i5-12500H 16GB 512GB SSD RTX 3050 4GB,100350.0,Asus,28,0.0,106,матовая,Intel Core i5-12500H (2.5 ГГц)
+295, 184846544,Ноутбук V16 Pro,31050.0,FRBBY,37,0.0,182,матовая,Intel Celeron 5105
+296, 185354904,"Ноутбук 14"" P455; AMD Ryzen5-5500U 8G 256G SSD",46561.0,Maibenben,20,0.0,281,Матовое,AMD Ryzen 5 5560U (2.3 ГГц)
+297, 176894763,7 портов разъемов USB,516.0,OPENTHEBEST,63,5.0,1,NaN,NaN
+298, 183218231,Ноутбук 15 EX215-52-37SE i3-1005G1 4Gb 1Tb NoOs,30771.0,Acer,14,0.0,70,NaN,Intel Core i3 - 1005G1
+299, 178348224,Регулируемая подставка для правильного осанка,680.0,OPENTHEBEST,75,0.0,5,NaN,NaN
+300, 159906730,"Ноутбук 14 1"" Notebook Intel J4105 1 5 GHz 8GB SSD 256GB",21175.0,,10,0.0,20,NaN,Intel Celeron J4105
+301, 177638636,ELITEBOOK 840 G8 I5-1135G7 8GB 512GBSSD С СУМКОЙ,101538.0,HP,10,0.0,187,Матовая,INTEL I5-1135G7
+302, 187888411,"Ноутбук RB-1551 15.6"" Intel N5095 4x2.0GHz; 16Gb; 512Gb SSD",25236.0,Azerty,10,5.0,84,матовая,Intel Celeron N5095 (2.0 ГГц)
+303, 150752499,Подарочная карта с кодами на Robux 400,1071.0,Roblox,10,5.0,1,NaN,NaN
+304, 158141093,"Ноутбук AZ-1406 14"" Intel 2х1.10GHz; 6Gb; 256Gb SSD",20250.0,Azerty,10,5.0,88,матовое,Intel Celeron N3350 (1.1 ГГц)

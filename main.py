@@ -2,7 +2,6 @@ from selenium import webdriver
 from selenium.webdriver.chrome.options import Options as ChromeOptions
 from selenium.webdriver.common.by import By
 from selenium.webdriver.common.action_chains import ActionChains
-from bs4 import BeautifulSoup
 import requests
 
 import multiprocessing
@@ -32,7 +31,7 @@ def get_page(url: str):
         exit()
 
     chrome_options = ChromeOptions()
-    # chrome_options.add_argument("--headless=new")
+    chrome_options.add_argument("--headless=new")
     driver = webdriver.Chrome(options=chrome_options)
     driver.implicitly_wait(10)
     driver.get(url)
