@@ -3,8 +3,9 @@ import customtkinter
 from main import get_pages_number, get_filter_info, main_parse
 from csvHandler import numerate_csv, create_csv, update_price_file, show_graph
 import csv
-from tkinter import ttk
 from tkinter import *
+from tkinter import ttk
+import tkinter.messagebox as mb
 
 
 class ScrollableCheckBoxFrame(customtkinter.CTkScrollableFrame):
@@ -37,7 +38,7 @@ class App(customtkinter.CTk):
         self.ScrollableTableFrameH = None
 
         # конфигурация окна
-        self.title("Парсер Wildberries v0.3")
+        self.title("Парсер Wildberries v0.4")
         self.geometry(f"{1100}x{580}")
         # прозрачность
         self.attributes('-alpha', 0.95)
@@ -75,21 +76,25 @@ class App(customtkinter.CTk):
                                                         command=self.update_price_list)
         self.sidebar_button_5.grid(row=4, column=0, padx=20, pady=(90, 0))
 
+        self.sidebar_button_6 = customtkinter.CTkButton(self.sidebar_frame, text="О программе...",
+                                                        command=self.about_program)
+        self.sidebar_button_6.grid(row=9, column=0, padx=20, pady=10)
+
         # создаем меню тем
         self.appearance_mode_label = customtkinter.CTkLabel(self.sidebar_frame, text="Appearance Mode:", anchor="w")
         self.appearance_mode_label.grid(row=5, column=0, padx=20, pady=(10, 0))
-        self.appearance_mode_optionemenu = customtkinter.CTkOptionMenu(self.sidebar_frame,
+        self.appearance_mode_option_menu = customtkinter.CTkOptionMenu(self.sidebar_frame,
                                                                        values=["Light", "Dark", "System"],
                                                                        command=self.change_appearance_mode_event)
-        self.appearance_mode_optionemenu.grid(row=6, column=0, padx=20, pady=(10, 10))
+        self.appearance_mode_option_menu.grid(row=6, column=0, padx=20, pady=(10, 10))
 
         # создаем меню изменения масштаба
         self.scaling_label = customtkinter.CTkLabel(self.sidebar_frame, text="UI Scaling:", anchor="w")
         self.scaling_label.grid(row=7, column=0, padx=20, pady=(10, 0))
-        self.scaling_optionemenu = customtkinter.CTkOptionMenu(self.sidebar_frame,
+        self.scaling_option_menu = customtkinter.CTkOptionMenu(self.sidebar_frame,
                                                                values=["80%", "90%", "100%", "110%", "120%"],
                                                                command=self.change_scaling_event)
-        self.scaling_optionemenu.grid(row=8, column=0, padx=20, pady=(10, 20))
+        self.scaling_option_menu.grid(row=8, column=0, padx=20, pady=(10, 20))
 
         # создаем строку ввода
         self.address_bar = customtkinter.CTkEntry(self, placeholder_text="Введите ссылку формата: https://wildberries.ru/...")
@@ -98,19 +103,19 @@ class App(customtkinter.CTk):
 
         self.page_number_label = customtkinter.CTkLabel(self, text="Число страниц:", anchor="w")
         self.page_number_label.grid(row=0, column=2, padx=(20, 0), pady=(16, 0), sticky="new")
-        self.page_number_bar = customtkinter.CTkEntry(self)
+        self.page_number_bar = customtkinter.CTkEntry(self, width=50)
         self.page_number_bar.insert(0, "3")
         self.page_number_bar.grid(row=0, column=2, padx=(120, 10), pady=(16, 0), sticky="new")
 
         # создаем прокручиваемое окно для checkbox'ов
-        self.scrollable_checkbox_frame = ScrollableCheckBoxFrame(master=self, width=200, label_text="Фильтр")
+        self.scrollable_checkbox_frame = ScrollableCheckBoxFrame(self, width=200, label_text="Фильтр")
         self.scrollable_checkbox_frame.grid(row=0, column=2, padx=(20, 10), pady=(67, 10), rowspan=3, sticky="nsew")
         self.scrollable_checkbox_frame.grid_columnconfigure(0, weight=1)
 
         # задаем стандартные настройки темы и масштаба отображения
-        self.appearance_mode_optionemenu.set("Dark")
+        self.appearance_mode_option_menu.set("Dark")
         self.change_appearance_mode_event("Dark")
-        self.scaling_optionemenu.set("100%")
+        self.scaling_option_menu.set("100%")
         style = ttk.Style()
         style.theme_use("alt")
         style.configure("Treeview.Heading", background="#2B2B2B",filedbackground="#2B2B2B", foreground="#F9F9FA")
@@ -191,6 +196,22 @@ class App(customtkinter.CTk):
     def update_price_list(self):
         update_price_file()
         print("Цены успешно сохранены")
+
+    def about_program(self):
+        msg = ("Страница: https://github.com/CitoFly/parseWB\n\n"
+               "Программа предназначена для получения информации о товарах с сайта Wildberries.ru.\n\n"
+               "Правила использования:\n"
+               "1) Скопируйте и вставьте ссылку на категорию товаров в адресную строку;\n"
+               "2) Нажмите кнопку 'Создать фильтр' и дождитесь его создания;\n"
+               "3) Выберите интересующие вас пункты;\n"
+               "4) Над фильтром укажите количество страниц, которые обработает программа;\n"
+               "5) Нажмите кнопку 'Начать парсинг' и дождитесь завершения."
+               "После завершения автоматически создастся таблица с информацией о товарах"
+               "и обновятся цены в файле 'price_history.pkl'\n"
+               "6) Для того, чтобы вывести график истории цен, выделите в таблице используя ЛКМ"
+               "и нажмите кнопку 'Создать график'.\n"
+               "6.1) Для ручного обновления цен используйте кнопку 'Внести новые цены'.")
+        mb.showinfo("О программе", msg)
 
     def parse_start(self):
         url = self.address_bar.get()
