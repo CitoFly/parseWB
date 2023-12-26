@@ -172,7 +172,7 @@ class App(customtkinter.CTk):
 
     def table_create(self):
         # добавляем данные в таблицу
-        with open('wb_data.csv', 'r', newline='') as csvfile:
+        with open('wb_data.csv', 'r', newline='', encoding="utf-8") as csvfile:
             wb_table = csv.reader(csvfile, delimiter=',', quotechar='|')  # получаем данные из csv файла
             heads = next(wb_table)  # определяем столбцы будущей таблицы
 
