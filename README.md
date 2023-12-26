@@ -8,4 +8,5 @@ main.py\
 parse.py\
 csvHandler.py\
 models.py\
-wb_data.csv
+wb_data.csv\
+price_history.pkl
