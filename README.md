@@ -4,8 +4,8 @@ python -m pip install matplotlib\
 pip3 install -r requirements.txt
 
 ### Основные файлы
-window.py\
 main.py\
+parse.py\
 csvHandler.py\
 models.py\
 wb_data.csv
