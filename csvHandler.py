@@ -7,19 +7,19 @@ import matplotlib.pyplot as plt
 def create_csv(head: list):
     heads_main = ['id', 'название', 'цена со скидкой', 'бренд', 'продаж', 'рейтинг', 'в наличии']
     all_heads = heads_main + head
-    with open("wb_data.csv", mode="w", newline="") as file:
+    with open("wb_data.csv", mode="w", newline="", encoding='utf-8') as file:
         writer = csv.writer(file)
         writer.writerow(all_heads)
 
 
 def __save_csv(chars: list):
-    with open("wb_data.csv", mode="a", newline="") as file:
+    with open("wb_data.csv", mode="a", newline="", encoding='utf-8') as file:
         writer = csv.writer(file)
         writer.writerow(chars)
 
 
 def numerate_csv():
-    with fileinput.FileInput("wb_data.csv", inplace=True) as file:
+    with fileinput.FileInput("wb_data.csv", inplace=True, encoding='utf-8') as file:
         for n, row in enumerate(file, start=0):
             if n != 0:
                 print(f"{n},", row, end='')
