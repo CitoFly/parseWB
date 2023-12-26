@@ -7,19 +7,19 @@ import matplotlib.pyplot as plt
 def create_csv(head: list):
     heads_main = ['id', 'название', 'цена со скидкой', 'бренд', 'продаж', 'рейтинг', 'в наличии']
     all_heads = heads_main + head
-    with open("wb_data.csv", mode="w", newline="", encoding='utf-8') as file:
+    with open("wb_data.csv", mode="w", newline="", encoding="utf-8") as file:
         writer = csv.writer(file)
         writer.writerow(all_heads)
 
 
-def __save_csv(chars: list):
-    with open("wb_data.csv", mode="a", newline="", encoding='utf-8') as file:
+def save_csv(chars: list):
+    with open("wb_data.csv", mode="a", newline="", encoding="utf-8") as file:
         writer = csv.writer(file)
         writer.writerow(chars)
 
 
 def numerate_csv():
-    with fileinput.FileInput("wb_data.csv", inplace=True, encoding='utf-8') as file:
+    with fileinput.FileInput("wb_data.csv", inplace=True, encoding="utf-8") as file:
         for n, row in enumerate(file, start=0):
             if n != 0:
                 print(f"{n},", row, end='')
@@ -46,7 +46,7 @@ def update_price_file():
             loaded_dict[item] = temp_list
         except:
             loaded_dict[item] = [temp_dict[item]]
-        print(item, ":", loaded_dict.get(item))
+        # print(item, ":", loaded_dict.get(item))
 
     with open('price_history.pkl', 'wb') as file:
         pickle.dump(loaded_dict, file)

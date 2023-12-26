@@ -3,13 +3,6 @@ from selenium.webdriver.chrome.options import Options as ChromeOptions
 from selenium.webdriver.common.by import By
 from selenium.webdriver.common.action_chains import ActionChains
 import requests
-
-import multiprocessing
-from multiprocessing import Pool
-from itertools import product
-
-from csvHandler import __save_csv
-from models import Items
 import re
 
 
@@ -51,7 +44,7 @@ def get_item_links(url: str) -> list:
     return item_links
 
 
-def get_basket_num(item_id, vol, part):
+def sync_get_basket_num(item_id, vol, part):
     i = 1
     while True:
         basket_num = f'0{i}' if i // 10 == 0 else str(i)
@@ -62,12 +55,23 @@ def get_basket_num(item_id, vol, part):
         i += 1
 
 
-def get_chars_dict(link: str):
+async def async_get_basket_num(item_id, vol, part, session):
+    i = 1
+    while True:
+        basket_num = f'0{i}' if i // 10 == 0 else str(i)
+        async with session.get(
+            f'https://basket-' + basket_num + '.wb.ru/vol' + vol + '/part' + part + '/' + item_id + '/info/ru/card.json') as response:
+            if response.status == 200:
+                return basket_num
+            i += 1
+
+
+def sync_get_chars_dict(link: str):
     item_id = get_item_id(link)
     vol = item_id[:len(item_id) - 5]
     part = item_id[:len(item_id) - 3]
 
-    basket_num = get_basket_num(item_id, vol, part)
+    basket_num = sync_get_basket_num(item_id, vol, part)
     response = requests.get(
         f'https://basket-' + basket_num + '.wb.ru/vol' + vol + '/part' + part + '/' + item_id + '/info/ru/card.json')
 
@@ -79,13 +83,31 @@ def get_chars_dict(link: str):
     return full_chars_dict
 
 
-def get_filter_info(url: str) -> list:
+async def async_get_chars_dict(link: str, session):
+    item_id = get_item_id(link)
+    vol = item_id[:len(item_id) - 5]
+    part = item_id[:len(item_id) - 3]
+    basket_num = await async_get_basket_num(item_id, vol, part, session)
+    async with session.get(
+        f'https://basket-' + basket_num + '.wb.ru/vol' + vol + '/part' + part + '/' + item_id + '/info/ru/card.json') as response:
+
+        chars_dict_json = await response.json()
+        chars_dict = chars_dict_json["options"]
+
+        full_chars_dict = {}
+        for item in chars_dict:
+            full_chars_dict[item["name"]] = item["value"]
+    return full_chars_dict
+
+
+def get_filter_info(url: str):
     driver = get_page(url)
 
     # получаем ссылку на первый попавшийся товар
     first_item_link = driver.find_element(By.CLASS_NAME, "product-card__link").get_attribute("href")
     driver.close()
-    filter_list = list(get_chars_dict(first_item_link).keys())
+    full_chars_dict = sync_get_chars_dict(first_item_link)
+    filter_list = list(full_chars_dict.keys())
     return filter_list
 
 
@@ -93,32 +115,3 @@ def get_item_id(link: str):
     regex = "(?<=catalog\/).+(?=\/)"
     item_id = re.search(regex, link)[0]
     return item_id
-
-
-def parse_item_chars(link: str, filter_list: list):
-    filtered_chars_list = []
-    item_id = get_item_id(link)
-    response = requests.get(f"https://card.wb.ru/cards/v1/detail?appType=1&curr=rub&dest=123585774&spp=25&nm={item_id}")
-    item_main_info = Items.model_validate(response.json()["data"])
-    for item_info in item_main_info.products:
-        filtered_chars_list.append(item_info.id)
-        filtered_chars_list.append(item_info.name)
-        filtered_chars_list.append(item_info.salePriceU)
-        filtered_chars_list.append(item_info.brand)
-        filtered_chars_list.append(item_info.sale)
-        filtered_chars_list.append(item_info.rating)
-        filtered_chars_list.append(item_info.volume)
-
-    full_chars_dict = get_chars_dict(link)
-    for item in filter_list:
-        try:
-            filtered_chars_list.append(full_chars_dict[item].replace(',', ';'))
-        except:
-            filtered_chars_list.append("NaN")
-    __save_csv(filtered_chars_list)
-
-
-def main_parse(url: str, filter_list: list):
-    links = get_item_links(url)
-    with Pool(multiprocessing.cpu_count()) as p:
-        p.starmap(parse_item_chars, product(links, [filter_list]))
